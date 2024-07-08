@@ -21,8 +21,11 @@ Request body:
 "userId": "unique_user_id",
 "message": "I want to book a room"
 }  
+```
+
 
 Response :- 
+``` 
 {
   "response": "Certainly! I'd be happy to help you book a room. Let me fetch the available room options for you."
 }
