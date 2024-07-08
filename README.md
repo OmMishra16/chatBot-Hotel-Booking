@@ -1,6 +1,6 @@
 # Hotel Booking Chatbot
 
-Video Demonstration link :- https://drive.google.com/file/d/1D3WTeel1-pOWHFMh4KNp25IibubUS0iy/view?usp=drive_link
+Video Demonstration link :- https://drive.google.com/file/d/1D3WTeel1-pOWHFMh4KNp25IibubUS0iy/view?usp=sharing
 
 This is a RESTful API for a hotel booking chatbot using Express.js and OpenAI's API.
 
