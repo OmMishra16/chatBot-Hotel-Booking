@@ -28,7 +28,7 @@ Response :-
 }
 
 Testing :- 
-curl -X POST http://localhost:3000/api/chat \
+curl -X POST `http://localhost:3000/api/chat` \
   -H "Content-Type: application/json" \
   -d '{"userId": "user123", "message": "I want to book a room"}'
 
