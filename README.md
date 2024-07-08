@@ -16,7 +16,7 @@ This is a RESTful API for a hotel booking chatbot using Express.js and OpenAI's 
 Send a message to the chatbot and receive a response.
 
 Request body:
-json :- 
+```json :- 
 {
 "userId": "unique_user_id",
 "message": "I want to book a room"
