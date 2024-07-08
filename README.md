@@ -32,9 +32,31 @@ Response :-
 ```
 
 Testing :- 
-curl -X POST `http://localhost:3000/api/chat` \
+```
+curl -X POST http://localhost:3000/api/chat \
   -H "Content-Type: application/json" \
   -d '{"userId": "user123", "message": "I want to book a room"}'
+```
+
+List of Hotel room command :-
+```
+curl -X GET https://bot9assignement.deno.dev/rooms
+
+```
+
+Create a booking :-
+
+```
+curl -X POST https://bot9assignement.deno.dev/book \
+  -H "Content-Type: application/json" \
+  -d '{
+    "roomId": 2,
+    "fullName": "John Doe",
+    "email": "john.doe@example.com",
+    "nights": 3
+  }'
+
+```
 
 Continue the conversation by sending more messages with the same userId to maintain the conversation history.
 
@@ -45,3 +67,5 @@ To run the application, you'll need to:
 3. Start the server using `node app.js`
 
 You can then interact with the chatbot by sending POST requests to `http://localhost:3000/api/chat` with the appropriate JSON body.
+
+
