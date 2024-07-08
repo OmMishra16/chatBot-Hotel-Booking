@@ -26,6 +26,7 @@ Response :-
 {
   "response": "Certainly! I'd be happy to help you book a room. Let me fetch the available room options for you."
 }
+```
 
 Testing :- 
 curl -X POST `http://localhost:3000/api/chat` \
