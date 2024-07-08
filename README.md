@@ -8,8 +8,15 @@ This is a RESTful API for a hotel booking chatbot using Express.js and OpenAI's 
 
 1. Clone the repository
 2. Run `npm install` to install dependencies
-3. Create a `.env` file in the root directory and add your OpenAI API key:
-4. Run `npm start` to start the server
+3. Create a `.env` file in the backedn directory and add your :0
+```
+OPENAI_API_KEY=
+EMAIL_USER=
+EMAIL_PASS=
+```
+    
+4. `npm install sqlite3 sequelize cors dotenv express openai nodemailer axios` in backend directory by `cd backend`
+5. Run `npm start` to start the server
 
 ## API Endpoints
 
