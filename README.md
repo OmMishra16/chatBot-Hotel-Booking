@@ -31,12 +31,6 @@ Response :-
 }
 ```
 
-Testing :- 
-```
-curl -X POST http://localhost:3000/api/chat \
-  -H "Content-Type: application/json" \
-  -d '{"userId": "user123", "message": "I want to book a room"}'
-```
 
 List of Hotel room command :-
 ```
@@ -56,6 +50,13 @@ curl -X POST https://bot9assignement.deno.dev/book \
     "nights": 3
   }'
 
+```
+
+Testing :- 
+```
+curl -X POST http://localhost:3000/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{"userId": "user123", "message": "I want to book a room"}'
 ```
 
 Continue the conversation by sending more messages with the same userId to maintain the conversation history.
