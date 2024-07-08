@@ -8,7 +8,7 @@ This is a RESTful API for a hotel booking chatbot using Express.js and OpenAI's 
 
 1. Clone the repository
 2. Run `npm install` to install dependencies
-3. Create a `.env` file in the backedn directory and add your :0
+3. Create a `.env` file in the backedn directory and add your :-
 ```
 OPENAI_API_KEY=
 EMAIL_USER=
